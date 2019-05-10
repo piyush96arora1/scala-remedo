@@ -1,0 +1,16 @@
+object MainClass{
+
+   def main(args:Array[String]){
+     checknum("91-9876543210");
+    
+}
+
+def checknum(x:String):Unit={
+
+  val pattern:String="(0|(91)|(91-))?[789]\\d{9}";
+  var matches:Boolean=x.matches(pattern);
+  println(matches)
+
+ 
+
+}}
