@@ -1,0 +1,12 @@
+object MyClass{
+    def main(args:Array[String]){
+        println(calFactorial(5,1))
+    }
+    def calFactorial( x:Int,fact:Int):Int={
+ 
+     if(x==0)
+    return fact;
+    else
+     return calFactorial(x-1,x*fact);
+}}
+
